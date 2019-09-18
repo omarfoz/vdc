@@ -4,6 +4,8 @@
   <img src='images/vdc.png ' width="200" />
 </p>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Z7Q5n6i7dHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Introduction
 In this tutorial we will make our own Virtual Data Center Service and deploy inside it a linux server, using Bluvalt Cloud.
 
@@ -17,11 +19,10 @@ Virtual Data Center is a form of cloud computing that provides virtualized compu
 ## Lab Steps
 ### 1. Create [Virtual Data Center ](https://cloud.bluvalt.com/#/virtual-data-center/ "Virtual Data Center ") Service
 ![](images/vdc1.gif)
-
-### 2. Accsess to VDC Service 
 ![](images/vdc2.gif)
+### 2. Accsess to VDC Service 
 ![](images/vdc3.gif)
-![](images/vdc4.gif)
+
 ### 3. Creating a Virtual Router - [Video Guide](https://kb.bluvalt.com/uploads/Create_router.mp4 "Video Guide")
 ```
 Router Name = Router 1
@@ -35,8 +36,14 @@ Network Address = 10.10.10.0/24
 ```
 
 
-### 5. Creating a Security Groups
-![](images/vdc5.gif)
+### 5. Creating a Security Group
+A security group is a named collection of network access rules that are use to limit the types of traffic that have access to instances. When you launch an instance, you can assign one or more security groups to it. 
+
+```
+Note*
+For this Tutorial we will allow all traffic so is not recommended for real application.
+```
+![](images/vdc4.gif)
 
  ```
  Security Name = Security Group 1
@@ -44,12 +51,12 @@ Network Address = 10.10.10.0/24
  ```
 
 ### 6. Creating a Key Pairs
-![](images/vdc6.gif)
+![](images/vdc5.gif)
 ```
 Key Pairs Name = KeyPair
 ```
 
-### 7. Creating or Launching a Virtual Instance - [Video Guide](https://youtu.be/KsT46ramxqY "Video Guide")
+### 7. Creating or Launching a Virtual Instance - [Video Guide](https://youtu.be/Z7Q5n6i7dHI "Video Guide")
 
 ```
 Instance Name = Instance 1
@@ -65,10 +72,10 @@ Key Pairs = Key Pairs 1
 ```
 
 ### 8 Assign Floating IP to The Instance 
-![](images/vdc8.gif)
+![](images/vdc6.gif)
 
 ### 9 connecting to The Virtual Instance  
-![](images/vdc9.gif)
+![](images/vdc7.gif)
 
 open the Terminal and enter:
 ```
