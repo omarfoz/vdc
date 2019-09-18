@@ -49,8 +49,8 @@ Network Address = 10.10.10.0/24
 Key Pairs Name = KeyPair
 ```
 
-### 7. Creating or Launching a Virtual Instance
-![](images/vdc7.gif)
+### 7. Creating or Launching a Virtual Instance - [Video Guide](https://youtu.be/KsT46ramxqY "Video Guide")
+
 ```
 Instance Name = Instance 1
 Availability Zone = zone-1
@@ -63,12 +63,6 @@ Networks = Network 1
 Security groups =  security groups 1
 Key Pairs = Key Pairs 1 
 ```
-   #### 7.1 Instance Details 
-   #### 7.2 Instance Source
-   #### 7.3 Instance Flavor
-   #### 7.4 Instance Networks
-   #### 7.5 Instance Security Group
-   #### 7.6 Instance Key Pair
 
 ### 8 Assign Floating IP to The Instance 
 ![](images/vdc8.gif)
