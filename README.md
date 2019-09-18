@@ -16,7 +16,7 @@ Virtual Data Center is a form of cloud computing that provides virtualized compu
 
 ## Lab Steps
 ### 1. Create [Virtual Data Center ](https://cloud.bluvalt.com/#/virtual-data-center/ "Virtual Data Center ") Service
-![](vdc1.gif)
+![](images/vdc1.gif)
 
 ### 2. Accsess to VDC Service 
 ![](images/vdc2.gif)
