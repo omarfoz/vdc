@@ -4,8 +4,6 @@
   <img src='images/vdc.png ' width="200" />
 </p>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Z7Q5n6i7dHI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 ## Introduction
 In this tutorial we will make our own Virtual Data Center Service and deploy inside it a linux server, using Bluvalt Cloud.
 
