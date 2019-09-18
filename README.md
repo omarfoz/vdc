@@ -86,7 +86,4 @@ example: ssh -i /Users/Omar/Downloads/keypair.pem ubuntu@95.177.166.233
 
 ## Conclusion 
 Congratulations! You now have your own Virtual Data Center Service. You can start deploy your Applcations in the cloud !.
-<p align="center">
-  <img src='images/welldone.gif' />
-</p>
 
