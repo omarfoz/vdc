@@ -5,7 +5,7 @@
 </p>
 
 ## Introduction
-In this tutorial we will make our own Virtual Data Center Service and deploy inside it a linux server, using Bluvalt Cloud.
+In this tutorial we will make our own Virtual Data Center Service using Bluvalt Cloud.
 
 ### Virtual Data Center
 Virtual Data Center is a form of cloud computing that provides virtualized computing resources over the Internet
@@ -45,7 +45,7 @@ For this Tutorial we will allow all traffic so is not recommended for real appli
 
  ```
  Security Name = Security Group 1
- Rule = ALLTCP
+ Rule = ALL TCP
  ```
 
 ### 6. Creating a Key Pairs
@@ -55,6 +55,11 @@ Key Pairs Name = KeyPair
 ```
 
 ### 7. Creating or Launching a Virtual Instance - [Video Guide](https://youtu.be/Z7Q5n6i7dHI "Video Guide")
+
+```
+Note*
+For this Tutorial we will Select Ubuntu-18.04-LTS Image, You can select anything you want.
+```
 
 ```
 Instance Name = Instance 1
@@ -69,20 +74,27 @@ Security groups =  security groups 1
 Key Pairs = Key Pairs 1 
 ```
 
+
 ### 8 Assign Floating IP to The Instance 
 ![](images/vdc6.gif)
 
 ### 9 connecting to The Virtual Instance  
+```
+Note*
+For this Tutorial we will connect to Ubuntu-18.04-LTS
+```
+For every Image there a way to connect them please visit The [Knowledge base](https://kb.bluvalt.com/ "Knowledge base") for more information
+
 ![](images/vdc7.gif)
 
-open the Terminal and enter:
+Open the Terminal and Enter:
 ```
 sudo su 
 ssh -i [path of key pair ]/keypair.pem ubuntu@[floatingip] 
 ```
-example: ssh -i /Users/Omar/Downloads/keypair.pem ubuntu@95.177.166.233
+Example: ssh -i /Users/Omar/Downloads/keypair.pem ubuntu@95.177.166.233
 
 
 ## Conclusion 
-Congratulations! You now have your own Virtual Data Center Service. You can start deploy your Applcations in the cloud !.
+Congratulations! You now have your own Virtual Data Center Service. You can start deploy your Applcations in the cloud!.
 
