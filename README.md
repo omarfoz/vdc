@@ -75,10 +75,10 @@ Key Pairs = Key Pairs 1
 ```
 
 
-### 8 Assign Floating IP to The Instance 
+### 8. Assign Floating IP to The Instance 
 ![](images/vdc6.gif)
 
-### 9 connecting to The Virtual Instance  
+### 9. connecting to The Virtual Instance  
 ```
 Note*
 For this Tutorial we will connect to Ubuntu-18.04-LTS
